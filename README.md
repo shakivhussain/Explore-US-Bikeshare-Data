@@ -47,9 +47,18 @@ I learned about bike share use in Chicago, New York City, and Washington by comp
 
 # How to run the project
 * Clone the project
+
 * Prerequisite
     * You must have installed python and libraries like numpy and pandas.
 * Run the project
     * Open the terminal
     * And run
     ```bikeshare.py```
+
+
+  ## The Interactive Experience
+  For a more interactive experience, I wrote a script that took raw input in the terminal to present the statistics. Below screenshots show the results after requesting for information in Chicago for the month of January on Sunday:
+
+    ![screen shot 2018-09-25 at 11 27 59 pm](https://user-images.githubusercontent.com/43564654/46038089-36a71f00-c11b-11e8-9066-806aa9826f49.png)
+
+    ![screen shot 2018-09-25 at 11 28 50 pm](https://user-images.githubusercontent.com/43564654/46038101-3eff5a00-c11b-11e8-97ff-4b96268545c4.png)
