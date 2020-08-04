@@ -225,13 +225,13 @@ def user_stats(df, city):
 
     # Display counts of user types
     user_types = df['User Type'].value_counts().to_string()
-    print("Distribution for user types:")
+    print(" Distribution for user types Enter Here :")
     print(user_types)
 
     # Display counts of gender
     try:
         gender_distribution = df['Gender'].value_counts().to_string()
-        print("\nDistribution for each gender:")
+        print("\nDistribution for each gender :")
         print(gender_distribution)
     except KeyError:
         print("We're sorry! There is no data of user genders for {}."
