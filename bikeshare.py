@@ -234,7 +234,7 @@ def user_stats(df, city):
         print("\nDistribution for each gender :")
         print(gender_distribution)
     except KeyError:
-        print("We're sorry! There is no data of user genders for {}."
+        print("We're sorry! There is no data of user genders for {} Please Try again."
               .format(city.title()))
 
     # Display earliest, most recent, and most common year of birth
